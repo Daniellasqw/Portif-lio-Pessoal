@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
-header{
-background-image:url("../img/fundo4.jpg");
-background-size: cover;
-background-position: center;
-height: 100vh;
-width: 100%;
+
+header {
+    background-image: url("../img/fundo4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,138 +21,153 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
-nav h2{
-    color :#fff;
+
+nav h2 {
+    color: #fff;
     font-size: 35px;
     cursor: pointer;
     letter-spacing: 5px;
 }
-span{
+
+span {
     color: #f9004d;
 }
-span:hover{
-    color:#f90;
+
+span:hover {
+    color: #f90;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     padding: 10px 25px;
     list-style-type: none;
 }
-nav ul li a{
-    color:#fff;
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #f9004d;
     transform: scale(1.2);
     box-shadow: 0px 2px 0px grey;
-
 }
-.btn-contato{
+
+.btn-contato {
     background-color: #f9004d;
     text-decoration: none;
-    color :white;
+    color: white;
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
 }
 
-.btn-contato:hover{
+.btn-contato:hover {
     transform: scale(1.2);
 }
-main{
+
+main {
     position: absolute;
-    top:50%;
-    left:8%;
+    top: 50%;
+    left: 8%;
 }
-h4{
-    color:#fcfcfc;
+
+h4 {
+    color: #fcfcfc;
     letter-spacing: 2px;
     font-size: 20px;
 }
-h1{
-    color:#fff;
+
+h1 {
+    color: #fff;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
-h3{
+
+h3 {
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
 
-.sobre{
+.sobre {
     background-color: #191919;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    max-width: 100%;
     padding: 100px 0px;
-
-
+    flex-wrap: wrap;
 }
-.sobre img{
+
+.sobre img {
     width: 430px;
     height: auto;
     border-radius: 250px 100px 250px;
     border: 2px solid #f9004d;
 }
-.sobre img:hover{
+
+.sobre img:hover {
     border: 2px solid #f90;
-
 }
-.text-sobre{
+
+.text-sobre {
     width: 550px;
-
 }
-.main-sobre{
+
+.main-sobre {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 1130px;
     margin: 0 auto;
 }
-.text-sobre h2{
-    color:#fff;
+
+.text-sobre h2 {
+    color: #fff;
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
-.text-sobre h5{
-    color:#fff;
+
+.text-sobre h5 {
+    color: #fff;
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
-.text-sobre p{
-    color:#fcfc;
+
+.text-sobre p {
+    color: #fcfc;
     letter-spacing: 1px;
     line-height: 40px;
     font-size: 18px;
     margin-bottom: 45px;
-    
 }
-.text-sobre p:hover{
-    box-shadow:  0px 2px 0px grey;
+
+.text-sobre p:hover {
+    box-shadow: 0px 2px 0px grey;
 }
-.container-habilidades{
+
+.container-habilidades {
     background-color: #101010;
     width: 100%;
     padding: 100px 0px;
-
 }
-.Titulo h2{
-    color:#fff;
+
+.Titulo h2 {
+    color: #fff;
     font-size: 75px;
     width: 1130px;
     margin: 3px auto;
     text-align: center;
-      
 }
-.caixa{
+
+.caixa {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -158,65 +175,167 @@ h3{
     flex-wrap: wrap;
 }
 
-.card{
-    background-color: #191919;
-    height: 365px;
-    width: 335px;
+.card {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
     border-radius: 20px;
-    
+    align-items: center;
+    justify-content: center;
 }
-.card h4{
-    text-align: center;;
+
+.card .h4 {
+    text-align: center;
+    background-color: #fff;
 }
-.formulario{
+
+.formulario {
     background-color: #111111;
     width: 100%;
     padding: 100px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
-.formulario .div1 .div2 p{
+
+.formulario .div1 .div2 p {
     line-height: 40px;
 }
-.formulario h2{
+
+.formulario h2 {
     text-align: center;
     padding-bottom: 50px;
     color: #fff;
     font-size: 35px;
 }
 
-.formulario h2 p:hover{
+.formulario h2 p:hover {
     color: #f9004d;
 }
-.formulario h4{
+
+.formulario h4 {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-footer{
-    background-color: #000;
-    text-align: center;;
 
+footer {
+    background-color: #000;
+    text-align: center;
 }
-footer h4{
+
+footer h4 {
     color: white;
 }
-.voltar{
+
+.voltar {
     text-align: end;
     position: relative;
     top: 85px;
     left: 150px;
 }
-.voltar a{
+
+.voltar a {
     text-decoration: none;
     background-color: #f9004d;
     border-radius: 90px;
     font-weight: bold;
     padding: 10px 25px;
     color: white;
-    
 }
 
 
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        padding: 20px;
+    }
 
+    .main-sobre {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sobre img {
+        width: 300px;
+    }
+
+    .text-sobre {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .Titulo h2 {
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav h2 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        padding: 8px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main h1 {
+        font-size: 50px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .main-sobre {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .text-sobre h2 {
+        font-size: 40px;
+    }
+
+    .sobre img {
+        width: 200px;
+    }
+
+    .Titulo h2 {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    nav h2 {
+        font-size: 24px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3, h4 {
+        font-size: 18px;
+    }
+
+    .sobre img {
+        width: 150px;
+    }
+
+    .text-sobre h2 {
+        font-size: 30px;
+    }
+}
